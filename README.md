@@ -4,7 +4,10 @@ A personal portfolio site built with **Next.js (App Router)**, **TypeScript**, a
 
 ## Live Deployment
 
-> Vercel URL: _pending deployment_
+**https://wdd430-portfolio-nine-mu.vercel.app**
+
+Deployed on Vercel. Also reachable at
+`https://wdd430-portfolio-tifes-projects-f70c318e.vercel.app`.
 
 ## Repository
 
