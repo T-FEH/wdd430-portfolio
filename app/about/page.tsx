@@ -26,7 +26,7 @@ const skillGroups = [
 export default function About() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold mb-4">About Me</h2>
+      <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <p className="text-lg text-gray-700 mb-4">
         I&apos;m a software development student at BYU-Idaho building
         full-stack web applications and data-driven projects. My work ranges
@@ -39,7 +39,7 @@ export default function About() {
         accessible interface.
       </p>
 
-      <h3 className="text-2xl font-bold mt-10 mb-4">Technical Skills</h3>
+      <h2 className="text-2xl font-bold mt-10 mb-4">Technical Skills</h2>
       <section className="grid gap-4 md:grid-cols-2">
         {skillGroups.map((group) => (
           <SkillCard key={group.category} {...group} />
